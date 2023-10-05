@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-dzlu
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/quay-or-not-to-quay/nbe-e2e-prdf-tenant/integ-app-fdtm/hacbs-test-project-dzlu@sha256:ccd6a9d8afa3720cc569e9ad5ab3d61e64e4c761952fb776dc203f339f167ba5
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
